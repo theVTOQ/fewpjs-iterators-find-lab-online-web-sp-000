@@ -1,5 +1,5 @@
 function superbowlWin(record) {
-  const firstWinningEntry = record.find(entry => entry.result == "W");
+  const firstWin = record.find(entry => entry.result == "W");
   // if (firstWin == undefined){
   //   return undefined;
   // }else{
